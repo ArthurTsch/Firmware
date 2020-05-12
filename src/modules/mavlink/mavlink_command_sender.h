@@ -116,7 +116,7 @@ private:
 
 	bool _debug_enabled = false;
 	static constexpr uint8_t RETRIES = 3;
-	static constexpr uint64_t TIMEOUT_US = 500000;
+	static constexpr uint64_t TIMEOUT_US = 10000000; /*500000  */
 
 	/* do not allow copying or assigning this class */
 	MavlinkCommandSender(const MavlinkCommandSender &) = delete;
